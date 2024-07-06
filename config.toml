@@ -1,0 +1,11 @@
+[mqtt]
+host = "127.0.0.1"
+port = 1883
+client_id = "server1"
+subscribe_topic = "server"
+keep_alive=10
+
+[database]
+uri = "mongodb+srv://test:7sSDAEBmVYu8nmuG@cluster1.wlyepas.mongodb.net/alvas_fingerprint?retryWrites=true&w=majority&appName=Cluster1"
+database_name="alvas_fingerprint"
+collection_name="students"
